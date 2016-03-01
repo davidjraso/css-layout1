@@ -20,7 +20,7 @@ body {
 .box {
   float: left;
   width: 32%;
-  margin-right: 1.5%
+  margin-right: 1.5%;
   margin-bottom: 100px;
 }
 
@@ -32,9 +32,14 @@ body {
 }
 
 .box img {
+  width: 100%;
 }
 
 .box a.read-more {
+  display: block;
+  margin-top: 5px;
+  padding-top: 10px;
+  border-top: 1px;
 }
 
 .footer {
